@@ -4,6 +4,8 @@
 <!--[if IE 8 ]>    <html class="ie ie8" lang="<%= I18n.locale %>"> <![endif]-->
 <!--[if IE 9 ]>    <html class="ie ie9" lang="<%= I18n.locale %>"> <![endif]-->
 <!--[if gt IE 9]><!--><html lang="<%= I18n.locale %>"><!--<![endif]-->
+<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <head data-hook="inside_head">
     <%= render partial: 'spree/shared/head' %>
   </head>
@@ -26,5 +28,6 @@
         <%= yield :templates %>
       </div>
     </div>
+    <%= render partial: 'spree/shared/footer' %>
   </body>
 </html>
