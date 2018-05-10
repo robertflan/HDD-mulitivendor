@@ -46,3 +46,67 @@ footer .social-icon .fa{
 footer .footer-copyright{
 	padding: 20px 0px;
 }
+.delivery-icon{
+    display: inline-block;
+    background-image: url(//img.cdn.mountainwarehouse.com/common/sprite-16.svg);
+    background-size: 46em 43.5em;
+}
+.i-aov-next-day {
+    vertical-align: middle;
+    width: 3.3125em;
+    height: 2.6875em;
+    background-position: -35.9375em -19.1875em;
+}
+.i-aov-delivery {
+    vertical-align: middle;
+    width: 3.3125em;
+    height: 2.6875em;
+    background-position: -35.9375em -30.1875em;
+}
+.i-aov-no-one {
+    vertical-align: middle;
+    width: 3.3125em;
+    height: 2.6875em;
+    background-position: -.3125em -35.3125em;
+}
+.c-delivery-strip--static__col strong {
+    padding-top: .5em;
+    line-height: 23px;
+    position: relative;
+    top: 3px;
+    text-transform: uppercase;
+}
+@media (min-width: 1023px){
+.c-delivery-strip--static__col>div>span {
+    display: inline-block;
+    margin-right: 1.5rem;
+}
+}
+.c-delivery-strip--static__col>div {
+    display: inline-block;
+    text-align: center;
+}
+.c-delivery-strip--static__col strong span {
+    color: #f6921e;
+}
+.c-delivery-strip--static__col em {
+    line-height: 23px;
+    font-style: normal;
+    position: relative;
+    bottom: 3px;
+}
+.c-delivery-strip--static__col>div>span {
+    margin-top: .25em;
+    margin-right: 1.5em;
+    float: left;
+}
+.c-delivery-strip--static {
+    margin: 0;
+    background-color: #f1f1f1;
+    padding: 10px 0;
+    color: #666;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+}
