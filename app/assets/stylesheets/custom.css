@@ -40,7 +40,7 @@ footer .footer-text{
     height: 100%;
 }
 footer .social-icon .fa{
-	font-size: 1.3m;
+	font-size: 2.3em !important;
 	padding: 0px 10px;
 }
 footer .footer-copyright{
