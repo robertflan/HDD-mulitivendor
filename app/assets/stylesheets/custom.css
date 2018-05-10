@@ -1,3 +1,15 @@
+#spree-header #header {
+    /* background: rgba(34, 34, 34, 1); */
+    padding: 20px 0;
+    background-color: #f1f1f1 !important;
+}
+#spree-header #top-nav-bar .nav a {
+    color: #666 !important;
+}
+.header-delivery{
+	background-color: #f1f1f1;
+	padding: 10px 0px;
+}
 footer{
    background-color: #1c5c92;
    color: #fff;
